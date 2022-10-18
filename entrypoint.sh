@@ -38,7 +38,7 @@ cat << EOF > /etc/config.json
     },
     {
       "port": $PORT,
-      "protocol": "$PROTOCOL",
+      "protocol": "trojan",
       "settings": {
         "clients": [
           {
